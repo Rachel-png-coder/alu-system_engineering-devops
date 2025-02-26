@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This is the ssh client system-wide configuration file.
+
+Host *
+    IdentityFile ~/.ssh/school
+    IdentitiesOnly yes
+
+PreferredAuthentications publickey
