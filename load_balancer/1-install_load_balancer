@@ -13,8 +13,8 @@ frontend http
         default_backend web-server
 backend web-server
         balance roundrobin
-        server 3848-web-01 52.91.14.9:80 check
-        server 3848-web-02 54.196.81.191:80 check
+        server 6525-web-01 44.210.127.245 check
+        server 6525-web-02 3.87.44.137 check
         
 "
 
