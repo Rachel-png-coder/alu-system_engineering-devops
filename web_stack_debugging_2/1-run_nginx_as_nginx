@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# comment
+# nginx must be running as nginx user
 regex_existing_ipv4_config="listen\s.[0-9]\sdefault_server"
 port_8080_ipv4_config="listen 8080 default_server"
 # give 777 (all) rights to ugoa
